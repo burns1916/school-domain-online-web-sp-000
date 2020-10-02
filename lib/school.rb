@@ -18,6 +18,6 @@ class School
     if @roster[grade] == false
       @roster[grade] = []
   end
-end
   @roster[grade] << student_name
+end
 end
