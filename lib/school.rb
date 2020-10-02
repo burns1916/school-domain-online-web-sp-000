@@ -27,7 +27,7 @@ def grade(grade_number)
 end
 
 def sort
-  @roster.each |grade, student_name|
+  @roster.each do |grade, student_name|
     @roster[grade] = student_name.sort
   end
 end
