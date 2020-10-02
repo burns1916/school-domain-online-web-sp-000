@@ -14,5 +14,5 @@ class School
   def add_student(student_name, grade)
     @roster[grade] = []
   end
-  roster
+  @roster
 end
