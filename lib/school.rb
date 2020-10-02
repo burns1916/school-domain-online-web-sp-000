@@ -23,5 +23,5 @@ end
 end
 
 def grade(grade)
-  roster[:grade]
+  @school[:roster][:grade]
 end
